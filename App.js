@@ -9,7 +9,7 @@ const App = () => {
   const [showScore, setShowScore] = useState(false);
   const quizData = [
     {
-      question: 'what is capital of India?',
+      question: 'What is capital of India?',
       options: ['Chandigarh', 'Goa', 'New Delhi', 'Mumbai'],
       answer: 'New Delhi',
     },
@@ -87,6 +87,8 @@ const styles = StyleSheet.create({
   },
   questionText: {
     fontSize: 24,
+    fontWeight:'800',
+    color:'red',
 
   },
   resetBtnText:{
@@ -94,9 +96,6 @@ const styles = StyleSheet.create({
     paddingHorizontal:10,
 
   },
-  question:{
-    color:'red',
-  }
 });
 
 //make this component available to the app
